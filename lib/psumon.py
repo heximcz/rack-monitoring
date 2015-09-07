@@ -1,22 +1,22 @@
 #!/usr/bin/python3
 
 # get status of redundancy PSU for Zabbix:
-# Mean Well DR-RDN20
+# for two PSU Mean Well and redundancy module MW - DR-RDN20
 
 import RPi.GPIO as GPIO
 import time
 import sys
 
-Port_PDU1 = 24
-Port_PDU2 = 25
+Port_PSU1 = 24
+Port_PSU2 = 25
 
 GPIO.setmode(GPIO.BCM)
 
 def get_psu_status(n):
  if n == 1:
-  Port = Port_PDU1
+  Port = Port_PSU1
  elif n == 2:
-  Port = Port_PDU2
+  Port = Port_PSU2
  else:
   print('error')
   return
