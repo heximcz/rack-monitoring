@@ -1,0 +1,15 @@
+Rack Monitoring Python driver for
+Raspberry Pi RackMon Add-On
+
+usage: rackmon.py [-h] [-t {1,2}] [-r {1,2}] [-f1 {On,Off}] [-f2 {On,Off}]
+
+Rack Monitoring Add-on driver
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -t {1,2}      Get temperature value from sensor
+  -r {1,2}      Get actual speed of fan1 or fan2
+  -f1 {On,Off}  Fan1 power On/Off
+  -f2 {On,Off}  Fan2 power On/Off
+
+
