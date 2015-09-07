@@ -15,6 +15,9 @@ elif args.f1:
 elif args.f2:
  from lib.fanpower import *
  fan_power_ctl(2,args.f2)
+elif args.p:
+ from lib.psumon import *
+ get_psu_status(args.p)
 else:
  parser.print_usage()
  print(" ")
