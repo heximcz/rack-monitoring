@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-
-#https://github.com/simonmonk/raspberrypi_cookbook
+"""Derived from https://github.com/simonmonk/raspberrypi_cookbook"""
 
 import glob
 

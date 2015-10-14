@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 # get status of redundancy PSU for Zabbix:
 # for two PSU Mean Well and redundancy module MW - DR-RDN20
 
